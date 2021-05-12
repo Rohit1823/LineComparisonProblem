@@ -59,6 +59,22 @@ namespace LineComparison
             {
                 Console.WriteLine("Line 1 is Smaller than Line 2");
             }
+
+            //CompareTo Method
+
+            if (Length1.CompareTo(Length2) == 0)
+            {
+                Console.WriteLine("Line 1 is Equal to Line 2");
+            }
+            else if (Length1.CompareTo(Length2) > 0)
+            {
+                Console.WriteLine("Line 1 is Greater than Line 2");
+            }
+            else
+            {
+                Console.WriteLine("Line 1 is Smaller than Line 2");
+            }
+
         }
     }
 }
