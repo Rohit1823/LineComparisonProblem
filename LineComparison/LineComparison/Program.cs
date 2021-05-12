@@ -46,6 +46,15 @@ namespace LineComparison
             double Length2 = Math.Sqrt(Math.Pow((x4 - x3), 2) + Math.Pow((y4 - y3), 2));
             Console.WriteLine("Length of Line 2 is Equal to : " + Length2);
 
+            //Equal Line Check
+            if (Length1 == Length2)
+            {
+                Console.WriteLine("Two Lines are Equal");
+            }
+            else
+            {
+                Console.WriteLine("Two Line are Not Equal");
+            }
         }
     }
 }
